@@ -167,6 +167,7 @@ body {
     color: var(--clr-very-dark-blue);
 }
 
-.attribution a:hover {
+.attribution a:hover,
+.attribution a:focus-within {
     text-decoration: underline var(--clr-red) 2px;
 }
